@@ -1,6 +1,78 @@
+header {
+    width: 1600px;
+    height: 150px;
+}
+main {
+    width: 1600px;
+    height: 200px;
+    background-color: #2F303A;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    line-height: 1px;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 44px;
+    padding: 40px;
+}
 
-font-family: 'Roboto', sans-serif;
-.portfolio 
-{
+.portfolio {
+	font-family: 'Raleway', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+.btnindex {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+	background-color: #F5F4FA;
+    width: 200px;
+    height: 50px;
+}
+button {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+	background-color: #F5F4FA;
+}
+button:hover {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+	background-color: #2196f3;
+}
+.ProjectName {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    line-height: 3;
+}
+.ProjectType {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.logo1 {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2196F3
+}
+.logo2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black
+}
+a {
+    text-decoration: none;
 }
