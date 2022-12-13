@@ -1,126 +1,259 @@
-header {
-    width: 1600px;
-    height: 150px;
-    color: black;
+body {
+	width: 1600px;
+	font-family: 'Roboto', sans-serif;
+	color: #212121;
+	margin: 0px;
 }
-nav {
-    height: 40px;
-    margin: 10px;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-left: 300px;
+header {
+
+	height: 78px;
+	color: black;
+	border-bottom: 1px solid #ececec;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin: 0px;
+	float: left;
+}
+.logo-header {
+	text-align: center;
+	padding: 25px 70px 25px 215px;
+	float: left;
+}
+.subpages {
+	font-size: 14px;
+	padding: 32px 23px;
+	margin: 0px;
+	float: left;
+}
+#contact-mail-index {
+	padding: 32px 52px 32px 348px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+}
+#contact-phone-index {
+	padding: 32px 23px 32px 0px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
 }
 main {
-    width: 1600px;
-    height: 200px;
-    background-color: #2F303A;
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    line-height: 1px;
-    letter-spacing: 2px;
+	height: 600px;
+	background-color: #2f303a;
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1px;
+	letter-spacing: 2px;
 }
-h1 {
-    font-size: 44px;
-    padding: 40px;
+.h1index {
+	width: 696px;
+	height: 120px;
+	padding-top: 200px;
+	margin-left: 452px;
+	font-size: 44px;
+	line-height: 60px;
+	letter-spacing: 5px;
+}
+.h2index {
+	text-align: center;
+	font-size: 36px;
+	margin: 0px;
+}
+.h3index {
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 146%;
+	letter-spacing: .03em;
+}
+.btnindex {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	background-color: #f5f4fa;
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 700px;
+}
+.description {
+	width: 1300px;
+	height: 101px;
+	margin: 0px;
+	padding: 94px 150px;
+}
+.loremipsum {
+	inline-size: 270px;
+	float: left;
+	margin-left: 30px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .03em;
+	text-align: justify;
+}
+.loremipsum-text {
+	color: #757575;
+	line-height: 24px;
+	letter-spacing: .03em;
+	text-align: left;
+}
+
+.our-work {
+	height: 386px;
+	clear: both;
+	padding: 94px 0px;
+}
+.our-team {
+	height: 460px;
+	background-color: #f5f4fa;
+	clear: both;
+	padding: 94px 0px;
+}
+.photos {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+.photo {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+figure {
+	background-color: #ffffff;
+	margin: 0px;
+	float: left;
+}
+.our-team-photos {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: .03em;
+	text-align: center;
+	padding: 30px;
+	text-align: center;
+}
+.name-of-memeber {
+	color: #212121;
+}
+.function-of-member {
+	color: #757575;
 }
 .portfolio {
 	font-family: 'Raleway', sans-serif;
-    width: 1200px;
-    height: 1364px;
-    padding: 200px;
-   
+	width: 1200px;
+	height: 1364px;
+	padding: 200px;
 }
-ul {
-    	list-style-type: none;
-}
-.navli {
-    display: inline
-
-}
-.btnindex {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-	background-color: #F5F4FA;
-    width: 200px;
-    height: 50px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-}
-  
 button {
-	font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-	background-color: #F5F4FA;
-    float: left;
-    height: 38px;
-    width: auto;
-    padding: 5px;
-    margin: 10px;
-    
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	background-color: #f5f4fa;
+	float: left;
+	height: 38px;
+	width: auto;
+	padding: 5px;
+	margin: 10px;
 }
 button:hover {
 	font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+	font-weight: 700;
+	font-size: 16px;
 	background-color: #2196f3;
-    cursor: pointer;
+	cursor: pointer;
 }
-.portfolio-photos
-{
-    float: left;
-    width: 370px;
-    height: 404px;
-    margin: 5px;
-    padding: none;
+.portfolio-photos {
+	float: left;
+	width: 370px;
+	height: 404px;
+	margin: 5px;
 }
 .project-name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 1.08px;
-    line-height: 3;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1.08px;
+	line-height: 3;
 }
 .project-type {
-    color: #757575;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+	color: #757575;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 .logo1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #2196F3
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #2196f3;
 }
 .logo2header {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: black
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: black;
 }
 .logo2footer {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: white
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: white;
 }
 a {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: #2196f3;
 }
 footer {
-    width: 1600px;
-    background-color: #2F303A;
-    color: white;
-    padding: 50px 0px 50px 100px;
+	height: 202px;
+	background-color: #2f303a;
+	color: white;
+	padding: 50px 0px 0px 0px;
+}
+.logo-footer {
+	text-align: left;
+	padding: 20px 0px 10px 215px;
+}
+address {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: .03em;
+	text-align: left;
+	padding: 10px 1139px 0px 215px;
+}
+#contact-mail-footer a {
+	color: white;
+	font-size: 14px;
+	padding: 9px 1139px 0px 215px;
+}
+#contact-mail-footer a:hover {
+	color: #2196f3;
+	font-size: 14px;
+}
+#contact-phone-footer a {
+	color: white;
+	font-size: 14px;
+	padding: 9px 1139px 60px 215px;
+}
+#contact-phone-footer a:hover {
+	color: #2196f3;
+	font-size: 14px;
 }
