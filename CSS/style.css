@@ -155,11 +155,15 @@ button {
 	padding: 6px 22px;
 }
 button:hover {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 16px;
 	background-color: #2196f3;
 	cursor: pointer;
+}
+button:focus {
+	background-color: #2196f3;
+	cursor: pointer;
+}
+button:active {
+	background-color: red;
 }
 .logo1 {
 	font-family: 'Raleway', sans-serif;
@@ -186,6 +190,14 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #2196f3;
+}
+a:focus {
+	text-decoration: none;
+	color: #2196f3;
+}
+a:active {
+	text-decoration: none;
+	color: red;
 }
 footer {
 	height: 202px;
@@ -239,7 +251,7 @@ address {
 .subpages-portfolio {
 	height: 38px;
 	font-size: 14px;
-	letter-spacing: .03em;
+	letter-spacing: 0.03em;
 	margin: 4px;
 	float: left;
 }
