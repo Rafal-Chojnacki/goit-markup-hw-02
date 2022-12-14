@@ -9,12 +9,14 @@ header {
 	color: black;
 	border-bottom: 1px solid #ececec;
 }
+.main-portfolio {
+	height: 1548px;
+}
 ul {
 	list-style-type: none;
 }
 li {
 	display: inline;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	margin: 0px;
 	float: left;
@@ -41,7 +43,7 @@ li {
 	float: left;
 	font-size: 14px;
 }
-main {
+.main-index {
 	height: 600px;
 	background-color: #2f303a;
 	color: white;
@@ -144,7 +146,6 @@ figure {
 }
 
 button {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	border: none;
@@ -210,7 +211,6 @@ footer {
 	padding: 20px 0px 10px 215px;
 }
 address {
-	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-size: 14px;
 	font-weight: 400;
@@ -262,7 +262,6 @@ address {
 	padding: 15px;
 }
 .project-name {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	letter-spacing: 1.08px;
@@ -271,7 +270,6 @@ address {
 }
 .project-type {
 	color: #757575;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-align: left;
