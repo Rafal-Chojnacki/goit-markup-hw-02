@@ -17,60 +17,64 @@
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo-header"><a href="https://web-studio.pl/" title="WebStudio">
+    <header class="header">
+        <div class="logo-header"><a class="link-index" href="https://web-studio.pl/" title="WebStudio">
             <span class="logo1">Web</span><span class="logo2header">Studio</span></a>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <div class="subpages"><a href="agencja.html" title="WebStudio">Agencja</a></div>
+        <nav class="header-nav">
+            <div class="header-nav-subpages">
+               <ul class="ul-header">
+                <li class="li-header">
+                    <a class="link-index" href="agencja.html" title="WebStudio">Agencja</a>
                 </li>
-                <li>
-                    <div class="subpages"><a href="portfolio.html" title="Portfolio WebStudio">Portfolio</a></div>
+                <li class="li-header">
+                    <a class="link-index" href="portfolio.html" title="Portfolio WebStudio">Portfolio</a>
                 </li>
-                <li>
-                    <div class="subpages"><a href="kontakt.html" title="Kontakt">Kontakt</a></div>
+                <li class="li-header">
+                    <a class="link-index" href="kontakt.html" title="Kontakt">Kontakt</a>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <div id="contact-mail-index"><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
-                </li>
-                <li>
-                    <div id="contact-phone-index"><a href="tel:+48111111">+48 111 111 111</a></div>
-                </li>
-            </ul>
+               </ul> 
+            </div>
+            <div class="header-nav-contact">
+                <ul class="ul-header-nav-contact">
+                    <li class="li-header-nav-contact">
+                        <a class="link-index" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="li-header-nav-contact">
+                        <a class="link-index" href="tel:+48111111">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="main-index">
         <h1 class="h1index">EFEKTYWNE ROZWIĄZANIA WASZEGO BIZNESU</h1>
-        <button class="btnindex" type="button">Zamów usługę</button>
+        <button class="btn-index" type="button">Zamów usługę</button>
     </main>
     <div class="description">
-        <ul>
-            <li>
+        <ul class="ul-description">
+            <li class="li-description">
                 <div class="loremipsum">
                     <h3 class="h3index">LOREM IPSUM</h3>
                     <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
                         sem. Sed non sodales dui. Interdum et malesuada</p>
                 </div>
             </li>
-            <li>
+            <li class="li-description">
                 <div class="loremipsum">
                     <h3 class="h3index">LOREM IPSUM</h3>
                     <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcusem.
                         Sed non sodales dui. Interdum et malesuada</p>
                 </div>
             </li>
-            <li>
+            <li class="li-description">
                 <div class="loremipsum">
                     <h3 class="h3index">LOREM IPSUM</h3>
                     <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcusem.
                         Sed non sodales dui. Interdum et malesuada</p>
                 </div>
             </li>
-            <li>
+            <li class="li-description">
                 <div class="loremipsum">
                     <h3 class="h3index">LOREM IPSUM</h3>
                     <p class="loremipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcusem.
@@ -82,38 +86,29 @@
     <div class="our-work">
         <h2 class="h2index">Czym się zajmujemy</h2>
         <div class="photos">
-            <ul>
-                <li>
-                    <div class="photo">
-                        <figure><img src="./images/tablet.jpg" alt="programer working his desk office" width="370"
-                                height="294"></figure>
-                    </div>
-
+            <ul class="ul-our-work">
+                <li class="li-our-work">
+                        <img src="./images/tablet.jpg" alt="programer working his desk office" width="370"
+                                height="294">
                 </li>
-                <li>
-                    <div class="photo">
-                        <figure><img src="./images/laptop.jpg"
+                <li class="li-our-work">
+                        <img src="./images/laptop.jpg"
                                 alt="designers are developing application smartphones team creators is working interface mobile phones"
-                                width="370" height="294"></figure>
-                    </div>
+                                width="370" height="294">
                 </li>
-                <li>
-                    <div class="photo">
-                        <figure><img src="./images/colours.jpg"
+                <li class="li-our-work">
+                        <img src="./images/colours.jpg"
                                 alt="creative artist web design with working colour selection graphic tablet"
-                                width="370" height="294"></figure>
-                    </div>
+                                width="370" height="294">
                 </li>
             </ul>
         </div>
     </div>
     <div class="our-team">
         <h2 class="h2index">Nasz zespół</h2>
-        <div class="photos">
-            <ul>
-                <li>
-                    <div class="photo">
-                        <figure>
+            <ul class="ul-our-team">
+                <li class="li-our-team">
+                        <figure class="figure-our-team">
                             <img src="./images/product-designer.jpg" alt="photo of product designer John Doe"
                                 width="270" height="260">
                             <figcaption class="our-team-photos">
@@ -122,12 +117,9 @@
                                 <span class="function-of-member">Product Designer</span>
                             </figcaption>
                         </figure>
-                    </div>
-
                 </li>
-                <li>
-                    <div class="photo">
-                        <figure>
+                <li class="li-our-team">
+                        <figure class="figure-our-team">
                             <img src="./images/frontend-developer.jpg" alt="photo of frontend developer John Doe"
                                 width="270" height="260">
                             <figcaption class="our-team-photos">
@@ -136,11 +128,9 @@
                                 <span class="function-of-member">Frontend Developer</span>
                             </figcaption>
                         </figure>
-                    </div>
                 </li>
-                <li>
-                    <div class="photo">
-                        <figure>
+                <li class="li-our-team">
+                        <figure class="figure-our-team">
                             <img src="./images/marketing.jpg" alt="photo of marketing John Doe" width="270"
                                 height="260">
                             <figcaption class="our-team-photos">
@@ -149,11 +139,10 @@
                                 <span class="function-of-member">Marketing</span>
                             </figcaption>
                         </figure>
-                    </div>
                 </li>
-                <li>
+                <li class="li-our-team">
                     <div class="photo">
-                        <figure>
+                        <figure class="figure-our-team">
                             <img src="./images/ui-designer.jpg" alt="photo of marketing John Doe" width="270"
                                 height="260">
                             <figcaption class="our-team-photos">
@@ -167,16 +156,16 @@
             </ul>
         </div>
     </div>
-    <footer>
-        <div class="logo-footer"><a href="https://web-studio.pl/" target="_blank" title="WebStudio"
+    <footer class="footer-all">
+        <div class="logo-footer"><a class="link-index" href="https://web-studio.pl/" target="_blank" title="WebStudio"
                 rel="noreferrer noopener"><span class="logo1">Web</span><span class="logo2footer">Studio</span></a>
         </div>
 
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <address class="address-all">m. Warszawa, Aleje Jerozolimskie 21</address>
         <br>
-        <div id="contact-mail-footer"><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
+        <div id="contact-mail-footer"><a class="link-index" href="mailto:info@devstudio.com">info@devstudio.com</a></div>
         <br>
-        <div id="contact-phone-footer"><a href="tel:+48111111">+48 111 111 111</a></div>
+        <div id="contact-phone-footer"><a class="link-index" href="tel:+48111111">+48 111 111 111</a></div>
     </footer>
 </body>
 
