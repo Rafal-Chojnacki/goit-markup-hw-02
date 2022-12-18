@@ -231,7 +231,6 @@ body {
 .figure-our-team {
 	background-color: #ffffff;
 	margin: 0px;
-	float: 1;
 }
 .our-team-photos {
 	font-size: 16px;
@@ -278,7 +277,7 @@ body {
 .portfolio {
 	font-family: 'Raleway', sans-serif;
 	height: 1272px;
-	padding : 0px;
+	padding: 0px;
 }
 .ul-portfolio {
 	width: 1385px;
@@ -344,6 +343,14 @@ body {
 [class^='link']:focus {
 	text-decoration: none;
 	color: #2196f3;
+}
+[class^='link']:active {
+	text-decoration: none;
+	color: #2196f3;
+}
+.link-active {
+	color: #2196f3;
+	text-decoration: none;
 }
 .footer-all {
 	height: 252px;
